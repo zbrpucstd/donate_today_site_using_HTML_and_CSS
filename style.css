@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins&family=Redressed&family=Roboto:wght@700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Pacifico&family=Poppins&family=Redressed&family=Roboto:wght@700&family=Source+Sans+Pro&display=swap');
+
 body {
     font-family: 'Poppins', sans-serif;
     padding: 0;
@@ -18,12 +21,27 @@ header {
 }
 
 .page-heading {
-    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
     text-align: center;
     padding-top: 140px;
     color: white;
     padding-bottom: 0;
     margin-bottom: 0;
+}
+
+.heading-split {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin-top: 0;
+}
+
+.heading-p {
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .donate-today-p-padding {
@@ -40,16 +58,9 @@ h2 {
     font-weight: bolder;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
-    ;
 }
 
-.heading-split {
-    font-size: 40px;
-    text-align: center;
-    color: white;
-    padding: 0;
-    margin-top: 0;
-}
+
 
 .header-div p {
     font-size: 20px;
@@ -68,6 +79,11 @@ h2 {
     padding: 15px;
     border-radius: 5px;
     color: white;
+}
+
+.get-update-align {
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .font-weight-donate-now {
@@ -184,7 +200,7 @@ h2 {
     display: flex;
     padding-left: 270px;
     align-items: center;
-    background-color: rgb(196, 196, 115);
+    background-color: rgb(228, 219, 168);
     margin-right: 20%;
     margin-left: 20%;
     background-position: center;
@@ -204,4 +220,28 @@ h2 {
     padding: 14px;
     background-color: rgb(228, 220, 220);
     border: none;
+}
+
+#be-humble-footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.set-email-field {
+    box-shadow: 0 0 5pt 1.5pt rgb(196, 194, 194);
+}
+
+footer {
+    background-color: rgb(5, 40, 56);
+}
+
+.footer-h3-color {
+    color: rgb(206, 76, 72);
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.footer-small-color {
+    color: rgb(146, 140, 140);
 }
