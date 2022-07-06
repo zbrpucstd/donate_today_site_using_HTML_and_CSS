@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url('images/donation3.jpg');
+    background-image: url('images/donation3.png');
     background-repeat: no-repeat;
     height: 95vh;
     background-size: cover;
@@ -244,4 +244,9 @@ footer {
 
 .footer-small-color {
     color: rgb(146, 140, 140);
+    font-size: 10px;
+}
+
+.text-shadow {
+    text-shadow: 0 0 rgb(122, 119, 119);
 }
